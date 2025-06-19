@@ -628,3 +628,53 @@ Which of the following is the default value of the `position` property?
 
 `static`
 
+
+## --quiz--
+
+### --question--
+
+#### --text--
+
+Which of the following is a correct placement of the `link` element?
+
+#### --distractors--
+
+```html
+  <link rel="stylesheet" href="./styles.css">
+  <head>
+      <meta charset="UTF-8">
+      <title>fCC Cat Painting</title>
+  </head>
+```
+
+---
+
+```html
+  <head>
+      <meta charset="UTF-8">
+      <title>
+        <link rel="stylesheet" href="./styles.css">
+        fCC Cat Painting
+      </title>
+  </head>
+```
+
+---
+
+```html
+  <head>
+      <meta charset="UTF-8">
+      <title>fCC Cat Painting</title>
+  </head>
+  <link rel="stylesheet" href="./styles.css">
+```
+
+#### --answer--
+
+```html
+  <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="./styles.css">
+      <title>fCC Cat Painting</title>
+  </head>
+```
