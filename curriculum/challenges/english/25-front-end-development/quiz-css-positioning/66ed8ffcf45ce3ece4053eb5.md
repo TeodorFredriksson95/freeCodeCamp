@@ -678,3 +678,53 @@ Which of the following is a correct placement of the `link` element?
       <title>fCC Cat Painting</title>
   </head>
   ```
+
+### --question--
+
+#### --text--
+
+Which of the following code sections correctly places the element in the top right corner of its containing element?
+
+#### --distractors--
+
+  ```css
+  .positioned {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: coral;
+  }
+  ```
+
+  ---
+
+  ```css
+  .positioned {
+    position: top-right;
+    top: 0px;
+    right: 0px;
+    background-color: coral;
+  }
+  ```
+
+  ---
+
+  ```css
+  .positioned {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color: coral;
+  }
+  ```
+
+#### --answer--
+
+  ```css
+  .positioned {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: coral;
+  }
+  ```
